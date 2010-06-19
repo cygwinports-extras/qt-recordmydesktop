@@ -1,0 +1,3 @@
+DESCRIPTION="X11 desktop session recorder (Qt GUI)"
+HOMEPAGE="http://recordmydesktop.sourceforge.net/"
+SRC_URI="mirror://sourceforge/recordmydesktop/${P}.tar.gz"
