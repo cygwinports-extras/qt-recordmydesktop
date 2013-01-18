@@ -1,0 +1,16 @@
+NAME="qt-recordmydesktop"
+VERSION=0.3.8
+RELEASE=2
+CATEGORY="X11"
+SUMMARY="X11 desktop session recorder (Qt GUI)"
+DESCRIPTION="recordMyDesktop is a X11 desktop session recorder that attemps to
+be easy to use, yet also effective at it's primary task. As such, the program
+is separated in two parts; a simple command line tool that performs the basic
+tasks of capturing and encoding and a graphical interface that exposes the
+program functionality in a usable way."
+HOMEPAGE="http://recordmydesktop.sourceforge.net/"
+SRC_URI="mirror://sourceforge/recordmydesktop/${P}.tar.gz"
+
+REQUIRES="recordmydesktop"
+
+DIFF_EXCLUDES="rmdConfig.py"
